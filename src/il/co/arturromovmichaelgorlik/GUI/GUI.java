@@ -86,7 +86,7 @@ public class GUI
 
 		createComboBoxUnitsChoice();
 		createTable();
-		sumbitButton();
+		submitButton();
 		new thermostat(0);
 		setBigWeatherInYourCiryLabel();
 		setTwoBlackSeparators();
@@ -218,11 +218,11 @@ public class GUI
 	}
 
 	/**
-	 * Create the sumbit button and all his actions.
+	 * Create the submiot button and all his actions.
 	 */
-	private void sumbitButton()
+	private void submitButton()
 	{
-		JButton btnSumbit = new JButton("Sumbit");
+		JButton btnSumbit = new JButton("Submit");
 		btnSumbit.addActionListener(new ActionListener()
 		{
 			public void actionPerformed(ActionEvent arg0)
